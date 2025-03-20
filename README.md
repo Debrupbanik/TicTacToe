@@ -28,4 +28,4 @@ To introduce decentralized gaming through a classic game by leveraging the trust
 > Designed for demonstration, educational purposes, and foundational blockchain gaming development.
 ##Contract Address
 0xd9145CCE52D386f254917e481eB44e9943F39138
-<img width="1330" alt="image" src="https://github.com/user-attachments/assets/69a336e8-0afe-40be-ae96-83d428b9c0ae" />
+<img width="1330" alt="image" src="https://github.com/user-attachments/assets/42c4f766-30ac-4c1a-a054-ad895d2ff75c" />

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Tic Tac Toe</h1>
+      <div id="game-status">
+        <p id="status-message">Waiting for Player X...</p>
+      </div>
+      <div id="board" class="board">
+        <!-- 3x3 board for TicTacToe -->
+        <div class="row">
+          <button class="cell" id="cell-0-0"></button>
+          <button class="cell" id="cell-0-1"></button>
+          <button class="cell" id="cell-0-2"></button>
+        </div>
+        <div class="row">
+          <button class="cell" id="cell-1-0"></button>
+          <button class="cell" id="cell-1-1"></button>
+          <button class="cell" id="cell-1-2"></button>
+        </div>
+        <div class="row">
+          <button class="cell" id="cell-2-0"></button>
+          <button class="cell" id="cell-2-1"></button>
+          <button class="cell" id="cell-2-2"></button>
+        </div>
+      </div>
+      <button id="join-game-btn">Join Game</button>
+      <button id="reset-btn">Reset Game</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.5.4/dist/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

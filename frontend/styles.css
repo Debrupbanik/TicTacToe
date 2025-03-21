@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.board {
+  margin: 20px;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+#status-message {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#join-game-btn,
+#reset-btn {
+  margin-top: 20px;
+}
